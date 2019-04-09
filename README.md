@@ -2,7 +2,7 @@
 Example project with configured Spring Boot, JooQ, TestContainers, flyway (as maven plugin) MySQL container and JUnit5 🚀
 
 ### Used versions
-```
+```xml
 <spring-boot.version>2.1.1</spring-boot.version>
 <java.version>11</java.version>
 <org.flyway.version>5.2.4</org.flyway.version>
@@ -22,7 +22,7 @@ Test loads firs migation `V1__Init.sql` manually.
 
 ### Main test configuration
 
-```
+```java
 @ContextConfiguration(initializers = AbstractTestConfiguration.Initializer.class)
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @JooqTest
