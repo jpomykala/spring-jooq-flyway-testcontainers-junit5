@@ -16,7 +16,7 @@ Example project with configured Spring Boot, JooQ, TestContainers, flyway (as ma
 
 `mvn clean test`
 
-Test loads firs migation `V1__Init.sql` manually. 
+Test loads first migration `V1__Init.sql` manually. 
 
 
 
