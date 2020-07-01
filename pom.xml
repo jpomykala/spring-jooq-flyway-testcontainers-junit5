@@ -21,7 +21,7 @@
         <org.lombok.version>1.18.4</org.lombok.version>
         <org.flyway.version>5.2.4</org.flyway.version>
         <org.jooq.version>3.11.7</org.jooq.version>
-        <mysql-connector-java.version>8.0.11</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
     </properties>
 
     <profiles>
